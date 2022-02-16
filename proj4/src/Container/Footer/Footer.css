@@ -1,0 +1,19 @@
+.last-foot{
+    background-image: url('../blackboard3.jpg'); 
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-size:cover;        
+}
+
+.last-foot p{
+   color: snow;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   letter-spacing: 4px;
+   text-align: center;
+   padding-top: 5px;
+  
+}
+
+.last-foot span{
+   color: #FFD700;
+}

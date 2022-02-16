@@ -1,0 +1,76 @@
+
+* {
+  outline: none;
+  
+}
+
+body {
+  margin: 0;
+  overflow-y: overlay;
+  font-family: "Poppins Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+.btn {
+  border-radius: 50px !important;
+  padding: 14px 0;
+  width: 160px;
+  cursor: pointer;
+  font-family: "Poppins SemiBold";
+}
+
+.primary-btn {
+  color: var(--white);
+  border: 2px solid linen;
+  font-size: 12px;
+  background-color: #1f2235;
+}
+/* @media only screen and (max-width: 414px) {
+  .primary-btn {
+    font-size: 13px;
+  }
+} */
+
+.primary-btn:hover {
+  color: aliceblue;
+ 
+  background-color: #1f2235;
+}
+
+.highlighted-btn {
+  color: var(--white);
+
+  font-size: 12px;
+  background-color: #ff5823;
+}
+@media only screen and (max-width: 568px) {
+  .highlighted-btn {
+    z-index: -900;
+  }
+}
+
+.red-border {
+  border: 1px solid var(--error-message) !important;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.nav-links{
+    color:  whitesmoke !important;
+    font-weight: bold;
+    border: 2px solid transparent;
+    
+}
+
+.nav-links:hover{
+    color: #FFD700 !important;
+    border-bottom: 2px solid #FFD700;
+    transition: .1s;
+}
+
+.brand-color{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: whitesmoke !important;
+}
+
+.brand-color span{
+    color:  #FFD700;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .nav-links{
+        color:  whitesmoke !important;
+        font-weight: bold;
+        border: 2px solid transparent;
+        font-size: 15px;
+        margin-right: -10px;
+        margin-left: -20px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 1100px)
+{
+    .nav-links{
+        color:  whitesmoke !important;
+        font-weight: bold;
+        border: 2px solid transparent;
+        font-size: 20px;
+        margin-right: -5px;
+        margin-left: -10px;
+        
+    } 
+}

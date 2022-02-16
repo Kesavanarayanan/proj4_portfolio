@@ -1,0 +1,103 @@
+.resume-parent{
+      margin-top: 60px!important; 
+}
+
+.resume-head{
+      margin-bottom: -15px !important; 
+}
+
+.para1{
+    
+      box-shadow: 0 0px 20px -2px #1f2235; 
+      margin-top: 50px ;
+      border-right: 7px solid  #FFD700;
+      border-left: 7px solid   #FFD700;
+      border-radius: 20px;
+ }
+
+ .para1 h4{
+       font-weight: bold;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       letter-spacing: 0.4rem;
+       color: #1f2235 !important;
+ }
+
+ .work-history-main{
+       background-color: black;
+ }
+
+
+ .work-heading{
+       font-weight: bold;
+       font-family:'Times New Roman', Times, serif;
+       color: wheat;
+       font-size: 25px;
+ }
+
+ .work-subheading{
+      font-weight: bold;
+      font-family:'Times New Roman', Times, serif;
+      color: wheat;
+      font-size: 20px; 
+ }
+
+ .work-history{
+      color: white;
+      font-family:'Courier New', Courier, monospace;
+      padding: 10px 0 10px 15px ;
+}
+
+.skills-main{
+      background-color: black;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      font-size: 20px;
+      font-weight:bold;
+      padding: 15px 0 15px 4px;
+}
+
+.skills-Topic1 ul li{
+      list-style-type:none;
+      
+}
+
+.skills-Topic2 ul li{
+      list-style-type:none;
+}
+
+.ProgressBar{
+      width: 100px;
+}
+
+.projects-main{
+      background-color: black;
+      padding: 15px 0 15px 25px ;
+}
+
+.projects-main-details h5{
+      font-weight: bold;
+      font-family:'Times New Roman', Times, serif;
+      color: wheat;
+      font-size: 20px;
+}
+
+.projects-main-details p{
+      font-weight: bold;
+      font-family:'Courier New', Courier, monospace;
+      color: white;
+      font-size: 15px !important;
+      padding-bottom: 0px;
+}
+
+.interest-main{
+      background-color: black;
+      padding: 15px 0 15px 25px ;   
+}
+
+.interest-main ul li{
+     list-style-type: square;
+     font-family: 'Courier New', Courier, monospace;
+     color: wheat; 
+     font-size: 20px;
+}
+

@@ -1,0 +1,38 @@
+.card-img{
+    background-image: url('./paperimg4.jpg');   
+    border-radius: 25px; 
+    box-shadow: 0 0px 20px -2px #1f2235;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.card-parent{
+    margin-top: 60px!important;             
+}
+
+.educard{
+   margin-bottom: -15px !important;                 
+}
+
+
+ .card-body{                
+   height:250px; 
+   font-family: cursive;
+   padding: 25px 0 0 35px;
+}
+
+.card-title{
+    font-weight: bold !important;
+    color: #0e2483;
+}
+
+.card-subtitle{
+    margin-bottom: 40px !important;
+}
+
+.card-text , p{
+    font-size: 20px !important;
+}
+
+

@@ -1,0 +1,26 @@
+.bg-line{
+  background-color: rgb(100, 138, 44);
+
+}
+.nav-link{
+  font-family: 'Roboto', sans-serif;
+  color: #1606fc !important;
+}
+
+.linec{ margin-right: 650px;
+}
+
+.about-me,.edu-me,.res-me,.con-me{
+  background-image: url('./Container/blackboard3.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+ 
+}
+
+
+
+

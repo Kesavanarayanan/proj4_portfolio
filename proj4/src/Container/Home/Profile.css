@@ -1,0 +1,267 @@
+.container-1{
+    background:url('./blackboard3.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+   
+}
+
+.colz1{
+    padding-top:30px;
+    margin-right: -70px;
+}
+
+.name-text{ font-weight: bold;}
+
+.name-highlight{
+     font-size: x-large;
+     color:  #FFD700;
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.myName{
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.myRole{margin: 14px 0 5px 0;}
+
+.myRole h1{
+    font-size: 40px;
+    font-family: cursive;
+
+}
+
+.mytagline{
+letter-spacing: 5px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 19px;
+margin: 5px 0 0 0;
+}
+
+.social-icon a{
+    padding:5px;
+    color: blanchedalmond;
+}
+
+.profileOption .highlighted-btn{
+    margin: 0 0 0 28px;
+    
+}
+
+.profileOption .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: black;
+    border-color: cornsilk;
+
+}
+
+.profileOption .primary-btn:hover{
+    background-color: black;
+    color:  cornsilk;
+   border-color: cornsilk;
+}
+
+.colz2{
+    padding-top: -10px;
+}
+
+.profile-picture{
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px white;
+    border-radius: 60px;
+    height: 350px;
+    width: 350px;
+    margin: 0 0px 0 100px;
+    margin-bottom: 0px;
+}
+
+
+.profile-picture-background img{
+    height: 97.5%;
+    width: 97.5%;
+   border-radius: 60px;
+   opacity: 0.9;
+}
+
+.profile-picture-background img:hover{
+    transform: scale(1.05);
+    transition: 1s ease-out;
+}
+
+
+
+/* Media queries*/
+/* Medium devices (max-width: 600px) */
+@media screen and (max-width: 600px)
+{
+    .profile-picture{
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 0px 0px white;
+        border-radius: 60px;
+        height: 230px;
+        width: 230px;
+        margin: 30px 0px 0 60px;
+        margin-bottom: 10px;
+    }
+
+    .primary-btn{
+        width:100px !important;
+        font-size: small;
+    }
+
+    .highlighted-btn{
+        width:100px !important;
+        font-size: small;
+    }
+
+    .myRole h1{
+        font-size: 20px;}
+
+        .mytagline{
+            font-size: 12px;}
+
+}
+
+
+/* Medium devices (min-width: 540px) */
+@media screen and (min-width: 540px){
+
+    .profile-picture{
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 0px 0px white;
+        border-radius: 60px;
+        height: 300px;
+        width: 300px;
+        margin: 50px 0px 0 90px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .profile-picture{
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 0px 0px white;
+        border-radius: 60px;
+        height: 250px;
+        width: 250px;
+        margin: 30px 0px 0 120px;
+        margin-bottom: 30px;
+    }
+
+    .myRole h1{
+        font-size: 30px;
+    
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    .container-1{
+        background:url('./blackboard3.jpg');
+        color: white;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding-top: 0px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 10%;
+        min-height: fit-content;
+        min-width: fit-content;
+      
+    }
+    .colz1{
+        padding-left: 0px;
+    }
+    
+    .profile-picture{
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 0px 0px white;
+        border-radius: 60px;
+        height: 300px;
+        width: 300px;
+        margin: 15px 0px 0 70px;
+        margin-bottom: 20px;
+       
+    }
+  .colz2{
+      margin-left: 20px;
+  }
+
+  .profileOption{
+      margin-top: 7px;
+  }
+    
+    .myRole h1{
+        font-size: 45px !important;
+    
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .myRole h1{
+        font-size: 65px !important;
+    
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .profile-picture{
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 0px 0px white;
+        border-radius: 60px;
+        height: 325px;
+        width: 325px;
+        margin: -10px 0px 0px 100px;
+        margin-bottom: 10px;
+    }
+
+    .myRole h1{
+        font-size: 65px !important;
+    
+    }
+}
+
+
+@media only screen and (max-width: 300px){
+
+    .profile-picture{
+        align-items: center;
+        justify-content: center;
+        box-shadow: none;
+        border-radius: none !important;
+        height: 150px;
+        width: 150px;
+        margin: 15px 0px 0px 55px;
+        margin-bottom: 20px;
+    }
+
+    .colz1{
+        padding-top: 0px;
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix proj4",
+    "dev": "concurrently \"npm run  server\" \"npm run proj4\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix proj4 && npm run build --prefix proj4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "heroku": "^7.59.2",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
